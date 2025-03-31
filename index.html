@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Flower Information</h1>
+    </header>
+    <section id="about">
+        <h2>To Do</h2>
+        <p>We are going to style different sections of our page. We will style the image, table and the form</p>
+    </section>
+
+    <!-- Image Section -->
+    <section class="image-section">
+        <h2>Rose Flower</h2>
+        <img src="https://hips.hearstapps.com/hmg-prod/images/close-up-of-roses-bouquet-royalty-free-image-1674509185.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=1200:*" alt="Flower Image" class="flower-image">
+    </section>
+
+    <!-- Flower Table Section -->
+    <section class="flower-table-section">
+        <h2>Flower Information</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Flower Name</th>
+                    <th>Country of Origin</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rose</td>
+                    <td>China</td>
+                    <td>Red</td>
+                </tr>
+                <tr>
+                    <td>Tulip</td>
+                    <td>Turkey</td>
+                    <td>Pink</td>
+                </tr>
+                <tr>
+                    <td>Lily</td>
+                    <td>Asia</td>
+                    <td>White</td>
+                </tr>
+                <tr>
+                    <td>Sunflower</td>
+                    <td>North America</td>
+                    <td>Yellow</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Feedback Form Section -->
+    <section class="feedback-form-section">
+        <h2>Feedback Form</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" placeholder="Enter your feedback" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Flower Information</p>
+    </footer>
+
+</body>
+</html>
